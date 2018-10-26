@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <string name="Preferences">2333</string>
+  <string name="FeedBack">Feedback</string>
+  <string name="ShareLink">11111</string>
+  <string name="EnterPromoCode">Enter promo code</string>
+  <string name="AboutApplication">About</string>
+  <!-- вкладоки -->
+  <string name="OrderTab">ORDER</string>
+  <string name="SelectTariff">SELECT A RATE</string>
+  <string name="ExtraOptions">Requests for your trip</string>
+  <!-- Strings related to login -->
+  <string name="prompt_phone">sss</string>
+  <string name="prompt_password">Code</string>
+  <string name="january_in_date">Jan</string>
+  <string name="february_in_date">Feb</string>
+  <string name="march_in_date">March</string>
+  <string name="april_in_date">April</string>
+  <string-array name="months_short">
+    <item>Jan</item>
+    <item>Feb</item>
+    <item>123123123</item>
+    <item>Apr</item>
+  </string-array>
+  <!--- dasfsdf-->
+  <string name="delete">Delete</string>
+  <string name="delete_ride_warning">Delete the trip from history?</string>
+  <string name="alert_low_battery_and_volume">Low level of volume and battery charge.
+    Please watch for notifications or wait for the driver at the meeting point.</string>
+  <string name="alert_low_battery">The battery charge is too low, the phone may turn off. Please
+    wait for the driver at the meeting point.</string>
+  <string name="alert_low_volume">Increase the volume so you will not miss the notifications on the order.</string>
+</resources>

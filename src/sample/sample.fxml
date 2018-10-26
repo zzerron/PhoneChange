@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="381.0" prefWidth="654.0" style="-fx-background-color: #6C4B95;">
+         <children>
+            <AnchorPane layoutY="72.0" prefHeight="309.0" prefWidth="654.0" style="-fx-background-color: #FAFAFA;">
+               <children>
+                  <TextField fx:id="url_field" layoutX="64.0" layoutY="55.0" prefHeight="38.0" prefWidth="420.0" promptText="Укажите путь к файлу" style="-fx-background-radius: 5;">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="phone_field" layoutX="65.0" layoutY="127.0" prefHeight="38.0" prefWidth="420.0" style="-fx-background-radius: 5;">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </TextField>
+                  <Button fx:id="inputFileButton" layoutX="484.0" layoutY="55.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="113.0" style="-fx-background-radius: 5;" text="Загрузить">
+                     <font>
+                        <Font name="Cambria Bold" size="17.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="changeFieldPhone" layoutX="485.0" layoutY="127.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="113.0" style="-fx-background-radius: 5;" text="Сохранить">
+                     <font>
+                        <Font name="Cambria Bold" size="17.0" />
+                     </font>
+                  </Button>
+                  <TextField fx:id="message_field" layoutX="117.0" layoutY="211.0" prefHeight="38.0" prefWidth="420.0" promptText="Привет! Для начала работы загрузите файл" style="-fx-background-radius: 5;">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </AnchorPane>
+            <Label layoutX="218.0" layoutY="14.0" text="PhoneChange">
+               <font>
+                  <Font name="Cambria Bold" size="35.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>
